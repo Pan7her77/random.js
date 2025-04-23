@@ -29,7 +29,22 @@ let quote = [
   ];
 
   //Like above this allows for their to be a random quote after the statement each time a quote is requested
-  const randomElement = quote[Math.floor(Math.random() * quote.length)]
+  const randomQuote = quote[Math.floor(Math.random() * quote.length)]
  
+  let leavingStatement = [
+  'How might this wisdom apply to a current challenge in your life?',
+  'Consider a past experience that either validates or contradicts this perspective.',
+  'What would change in your daily interactions if you fully embraced this idea?',
+  'Observe your thoughts when this quote comes to mind - what resists and what resonates?',
+  'How might someone with an opposing viewpoint interpret this same wisdom?',
+  'In what small way could you experiment with this philosophy today?',
+  'What deeper question does this quote invite you to explore?',
+  'Notice moments when this wisdom naturally reveals itself in everyday situations.',
+];
+
+const randomLeavingStatement = leavingStatement[Math.floor(Math.random() * leavingStatement.length)]
+
+
   console.log(randomstatement)
-  console.log(randomElement)
+  console.log(randomQuote)
+  console.log(randomLeavingStatement)
