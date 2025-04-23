@@ -30,7 +30,8 @@ let quote = [
 
   //Like above this allows for their to be a random quote after the statement each time a quote is requested
   const randomQuote = quote[Math.floor(Math.random() * quote.length)]
- 
+
+ //An array containg strings of phrases to help the user ponder on the quotes for longer throughtout the day 
   let leavingStatement = [
   'How might this wisdom apply to a current challenge in your life?',
   'Consider a past experience that either validates or contradicts this perspective.',
@@ -42,6 +43,7 @@ let quote = [
   'Notice moments when this wisdom naturally reveals itself in everyday situations.',
 ];
 
+//allows for there to be a leaving statement after every quote
 const randomLeavingStatement = leavingStatement[Math.floor(Math.random() * leavingStatement.length)]
 
 
