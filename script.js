@@ -1,16 +1,16 @@
 //array for random statements before quote
-let statement = [
+const statement = [
   'Your Quote of the day is: ',
   'The Word of the day is: ',
   'Todays bar is: ',
 
 ];
 
-//This allows for their to be a random statenment each time a quote is delivered
+// This allows for a random statement to be chosen each time a quote is delivered
 const randomstatement = statement[Math.floor(Math.random() * statement.length)]
 
 //Array of random possible quotes
-let quote = [
+const quote = [
     'Knowing yourself is the beginning of all wisdom. - Aristotle',
     'What is a friend? A single soul dwelling in two bodies. ― Aristotle',
     'No great mind has ever existed without a touch of madness. ― Aristotle',
@@ -28,11 +28,11 @@ let quote = [
     'Let him who would move the world first move himself. - Socrates',
   ];
 
-  //Like above this allows for their to be a random quote after the statement each time a quote is requested
+  // Like above, this selects a random quote from the list
   const randomQuote = quote[Math.floor(Math.random() * quote.length)]
 
  //An array containg strings of phrases to help the user ponder on the quotes for longer throughtout the day 
-  let leavingStatement = [
+const leavingStatement = [
   'How might this wisdom apply to a current challenge in your life?',
   'Consider a past experience that either validates or contradicts this perspective.',
   'What would change in your daily interactions if you fully embraced this idea?',
@@ -47,6 +47,4 @@ let quote = [
 const randomLeavingStatement = leavingStatement[Math.floor(Math.random() * leavingStatement.length)]
 
 
-  console.log(randomstatement)
-  console.log(randomQuote)
-  console.log(randomLeavingStatement)
+console.log(`${randomstatement}\n"${randomQuote}"\n\n${randomLeavingStatement}`);
