@@ -1,10 +1,10 @@
-# 🧠 Random Wisdom Generator
+Random Wisdom Generator
 
 This is a simple JavaScript project that generates a random piece of wisdom along with a personalized intro and a reflective prompt. It's designed to offer quick insight, spark thought, or add some philosophical flavor to your day.
 
 ---
 
-## 🛠 Features
+Features
 
 - Randomly selects:
   - An opening statement (e.g., "Your Quote of the day is...")
@@ -13,7 +13,7 @@ This is a simple JavaScript project that generates a random piece of wisdom alon
 
 ---
 
-## 🚀 How to Run
+How to Run
 
 Make sure you have [Node.js](https://nodejs.org/) installed.
 
@@ -26,7 +26,7 @@ node random.js``
 
 Each time you run the script, you’ll get a new combination of intro, quote, and reflection.
 
-💡 Example Output
+Example Output
 
 The Word of the day is: 
 "You have power over your mind - not outside events. Realize this, and you will find strength. - Marcus Aurelius, Meditations"
@@ -34,7 +34,7 @@ The Word of the day is:
 What deeper question does this quote invite you to explore?
 
 
-🌱 Ideas for the Future
+Ideas for the Future
 Add categories (Stoicism, Ancient Greece, etc.)
 
 Build a web version
@@ -43,9 +43,9 @@ Let users add their own quotes
 
 Schedule daily messages with a cron job or desktop notification
 
-📚 Philosophy Behind the Project
+Philosophy Behind the Project
 This generator draws from the timeless wisdom of great thinkers to give you daily inspiration. Whether you’re into philosophy, journaling, or just love a good quote, this project is here to vibe with your growth.
 
-👨🏾‍💻 Author
+Author
 Ayomide Olayori
 Built with intention, learning, and a touch of ancient wisdom.
